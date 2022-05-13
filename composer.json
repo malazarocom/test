@@ -1,0 +1,22 @@
+{
+    "authors": [
+        {
+          "name": "malazarocom",
+          "homepage": "http://malazaro.com"
+        }
+    ],
+    "description": "Basic php8 skeleton",
+    "type": "project",
+    "keywords": ["php"],
+    "require-dev": {
+        "php": ">=8.1",
+        "phpstan/phpstan": "^1.6",
+        "friendsofphp/php-cs-fixer": "^3.8",
+        "phpunit/phpunit": "^9.5"
+    },
+    "scripts": {
+        "phpstan": "phpstan analyse src tests",
+        "phpunit": "phpunit --configuration phpunit.xml",
+        "fixer": "./vendor/bin/php-cs-fixer fix src"
+    }
+}

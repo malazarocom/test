@@ -1,0 +1,7 @@
+parameters:
+    level: 2
+    paths:
+        - src
+    parallel:
+        processTimeout: 600.0
+    tmpDir: var/cache/phpstan

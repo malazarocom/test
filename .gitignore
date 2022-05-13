@@ -1,0 +1,10 @@
+/var/
+/vendor/
+
+# PHPUnit
+/app/phpunit.xml
+/phpunit.xml
+/.phpunit.result.cache
+
+# Php-cs-fixer
+/.php-cs-fixer.cache
